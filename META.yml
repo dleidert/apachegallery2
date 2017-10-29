@@ -1,10 +1,11 @@
 --- #YAML:1.0
 name:               Apache-Gallery
-version:            1.0.2
+version:            1.1.0
 abstract:           mod_perl handler to create an image gallery
 author:
     - Michael Legart <michael@legart.dk>
-license:            unknown
+    - Daniel Leidert <dleidert@debian.org>
+license:            artistic
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
