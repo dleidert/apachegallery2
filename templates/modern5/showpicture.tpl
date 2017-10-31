@@ -1,8 +1,10 @@
 <header id="title">
-  { $MENU }
+
 </header>
 
 <nav id="navigation">
+  { $MENU }
+  </br>
   <ul>
     <li>{ $BACK }</li>
     <li><a href="./" accesskey=u" rel="up" title="Accesskey U"><u>u</u>p</a></li>

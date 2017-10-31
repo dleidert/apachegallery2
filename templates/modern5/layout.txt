@@ -1,6 +1,7 @@
 +---------------------------------------------------------------------------------------------------+
-| <header> title </header>                                                                          |
+| <header> title (what title? maybe no title at all or the directory name/presentation style?       |
 +---------------------------------------------------------------------------------------------------+
+| <nav> menu (location) </nav>                                               |                      |
 | <nav> left(before) up(Dir) right(next)             Slideshow </nav>        |                      |
 +----------------------------------------------------------------------------|    <aside>           |
 |                                                                            |                      |
@@ -26,4 +27,4 @@
 | <footer> Copyright software                                                                       |
 +---------------------------------------------------------------------------------------------------+
 
-No more sizes OR use the sizes for the image link. Usually main should be 90% and aside 10%.
+No more sizes OR use the sizes for the image link. Usually main should be 80% and aside 20%.
