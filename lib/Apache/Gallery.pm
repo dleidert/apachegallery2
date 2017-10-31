@@ -14,7 +14,7 @@ BEGIN {
 	if (exists($ENV{MOD_PERL_API_VERSION})
 		and ($ENV{MOD_PERL_API_VERSION}==2)) {
 		require mod_perl2;
-		if ($mod_perl::VERSION >= 1.99 && $mod_perl::VERSION < 2.0) {
+		if ($mod_perl::VERSION < 2.0) {
 			die "mod_perl 2.0.0 or later is now required";
 		}
 		require Apache2::ServerRec;
