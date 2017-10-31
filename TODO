@@ -22,3 +22,38 @@ $Date$
 - Use imlib_create_cropped_scaled_image in resizepicture
 
 - Try to avoid running too many resize processes 
+
+==============================================================================
+
+Daniel
+
+Now:
+
+- Get resolution info for image
+
+- Check, which image types contain information, that can be returned by
+  image_info()
+
+- Rewrite template pages in HTML5
+
+- Support Videos
+
+- Trim get_imageinfo() -> last loop seems to be wrong. Either ... =value and
+  then fix value depending on the key or a big if elsif else loop.
+
+- Man-page
+
+- Use the sizes to provide an image in this size which can be used by an
+  <img src=.../> link.
+
+
+Later:
+
+- Add internationalisation - for HTML sites and image information
+
+- Make the output much more flexible
+
+- Introduce a sorting variant in the directory overview?
+
+- Allow several style types of overviews (List with sorting info, pictures
+  only, etc.pp.)
